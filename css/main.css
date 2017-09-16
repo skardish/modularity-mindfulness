@@ -1,0 +1,7 @@
+html {
+  font-family: 'Noto Sans', sans-serif;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
