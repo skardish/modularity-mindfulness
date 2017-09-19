@@ -1,7 +1,41 @@
 html {
-  font-family: 'Noto Sans', sans-serif;
+  font-family: "Noto Sans", sans-serif;
 }
 
-*, *::before, *::after {
-  box-sizing: inherit;
+i {
+  font-family: "Noto Sans Japanese", sans-serif;
 }
+
+a {
+  color: #b64c6e;
+}
+
+a:hover {
+  color: #860927;
+}
+
+li a {
+  text-decoration: none;
+  border-bottom: 2px solid #b64c6e;
+}
+
+.btn-ghost{
+  border-color: #b64c6e;
+}
+
+.btn:hover {
+  color: #b64c6e;
+  background-color: #d89fb0;
+  border-color: #b64c6e;
+
+}
+
+.btn {
+  color: #860927;
+}
+
+footer {
+  color: #e2e2e2;
+}
+
+@media only screen and (min-width: 60em) {
