@@ -19,23 +19,27 @@ li a {
   border-bottom: 2px solid #b64c6e;
 }
 
-.btn-ghost{
+.btn-ghost {
   border-color: #b64c6e;
+  background-color: #d89fb0;
+}
+
+.btn-ghost:hover {
+  border-color: #860927;
+  color: #d89fb0;
+  background-color: #d89fb0;
 }
 
 .btn:hover {
   color: #b64c6e;
   background-color: #d89fb0;
   border-color: #b64c6e;
-
 }
 
 .btn {
-  color: #860927;
-}
-
-hr {
-  border-color: #e2e2e2;
+  color: #d89fb0;
+  border: 2px solid #d89fb0;
+  background-color: #fff;
 }
 
 footer {
@@ -43,3 +47,13 @@ footer {
 }
 
 @media only screen and (min-width: 60em) {
+
+  .masthead {
+    float: left;
+  }
+
+  ul {
+    float: right;
+  }
+
+}
